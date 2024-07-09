@@ -1,0 +1,763 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.form-control {
+  width:234px;
+height:50px;
+padding: 10px 0px 0px 0px;
+gap: 8px;
+border-radius: 2px 0px 0px 0px #AC9BAF;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  width:100% !important;
+height:81px;
+padding:2%;
+gap: 0px;
+border: 0px 0px 1px 0px #2A192B;
+justify-content: space-between;
+opacity: 0px;
+}
+
+.logo img {
+  height: 50px;
+
+}
+
+.navbar-nav {
+  align-items: center !important;
+  margin-right: 10px !important;
+}
+
+#basic-navbar-nav {
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+
+.form-border {
+  border: 1px solid black;
+}
+
+.left-menubar {
+  display: flex;
+  align-items: center;
+  column-gap: 10%;
+  justify-content: center;
+  
+
+}
+
+
+.navbar-nav a {
+
+  font-family: Kodchasan;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+
+}
+.sel{
+  width:73px;
+height:41px;
+padding: 10px 0px 0px 0px;
+gap: 10px;
+border-radius: 2px 0px 0px 0px;
+border: 1px solid #2A192B;
+opacity: 0px;
+
+}
+button .bi {
+  width:24px ;
+  height: 24px;
+}
+
+.price {
+
+  font-size: 12px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 2%;
+
+}
+
+.button {
+  padding: 2% 10%;
+
+
+}
+
+.me-2 {
+  border: none;
+}
+
+.d-flex button {
+  border: none;
+  color: black;
+}
+
+.me-auto {
+  text-align: center;
+}
+
+.image-container {
+  width: 180px;
+  height: 210px;
+  padding: 10px 30px;
+  border: 1px solid #AC9BAF;
+}
+
+.image-container img {
+  width: 100%;
+
+
+
+}
+
+.list-body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.list-body button {
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: #3B2D3E;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+
+}
+
+.book-column {
+  padding: 0;
+
+}
+
+.card {
+  border: none;
+}
+
+.product-tittle {
+  font-family: "Laila", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.product-discription {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+
+}
+
+.order li {
+  list-style: none;
+  padding: 0%;
+
+}
+
+.order span {
+  margin-left: 5%;
+}
+
+.mt-4 {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.mt-4 h1 {
+  color: rgb(65, 33, 72);
+}
+
+.best-seller-box {
+  width:115px;
+height:30px;
+border:1px solid #AC9BAF;
+
+border-radius: 0px 24px 0px 24px ;
+opacity: 0px;
+background-color:#AC9BAF ;
+padding:1% 3%;
+margin-top:3% ;
+margin-left:5% ;
+}
+.best-seller-box h5{
+  color: #2A192B;
+font-family: Laila;
+font-size: 16px;
+font-weight: 600;
+line-height: 24.8px;
+text-align: left;
+
+}
+.form-el {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap:0px !important ;
+  padding:2% 10% ;
+}
+
+
+.form-el:first-child {
+
+}
+.form-el:last-child {
+ 
+}
+
+.form-el button {
+  font-size: 16px;
+  width: 95px;
+  height: 46px;
+  background-color: #AC9BAF;
+  color: #2A192B;
+  border: 1px;
+  border-radius: 2px;
+  font-family: Kodchasan;
+  padding: 0px;
+  font-weight: 400;
+  line-height: 20.8px;
+  
+  gap:0px !important;
+
+}
+.mail.col{
+flex:3 ;
+}
+
+.form-el input {
+  width: 100%;
+  height: 50px;
+  padding: 10px 0px 0px 0px;
+  gap:8px;
+  border-radius: 2px 0px 0px 0px;
+  opacity: 0px;
+  
+}
+
+.form-el .form-control{
+  font-family: Kodchasan;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  padding:10px ;
+}
+
+
+
+.down {
+  background-color: #3B2D3E;
+height:409px;
+padding: 80px 0px 80px 0px;
+gap: 24px;
+opacity: 0px;
+text-align: center;
+
+}
+
+.sub { 
+  
+  margin: auto;
+  color: #fff;
+  width:60% ;
+}
+.subscribe{
+  width:100%; 
+  height: 84px; 
+  
+}
+
+.subscribe h3{
+ width:643px ;
+ height:50px ;
+font-family: Laila;
+font-size: 32px;
+font-weight: 600;
+line-height: 49.6px;
+text-align: left;
+
+
+}
+.subscribe p{
+margin-left: 10%;
+margin-bottom:10% ;
+margin-top:1%;
+font-family: Kodchasan;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+width:462px ;
+height:18px ;
+padding:0px 0px 20px 0px;
+
+}
+.mobile h3{
+  color: #F9F6FB;
+font-family: Laila;
+font-size: 16px;
+font-weight: 600;
+line-height: 24.8px;
+text-align: left;
+
+}
+.apple{
+  display: flex;
+  column-gap: 3%;
+}
+.apple svg{
+  flex:2;
+}
+
+.btn button{
+  width:181px;
+height:61px;
+padding: 4px 8px 4px 8px;
+gap: 8px;
+border-radius: 2px 0px 0px 0px;
+border: 1px 0px 0px 0px solid #2A192B;
+opacity: 0px;
+background: #F9F6FB;
+}
+.store{
+  width: 117px;
+  height: 53px;
+ 
+}
+.store h3{
+font-family: Kodchasan;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.6px;
+text-align: center;
+color: #2A192B;
+width:100px ;
+height:16px ;
+
+}
+.store span{
+  color:#2A192B;
+  font-family: Laila;
+  font-size: 20px;
+  font-weight: 600;
+  line-height:30px;
+  text-align: center;
+  width:200px;
+  height:37px ;
+  
+}
+.google{
+  display: flex;
+}
+.play{
+  width: 136px;
+  height: 53px;
+}
+.play h3{
+ color: #2A192B;
+font-family: Kodchasan;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.6px;
+text-align: center;
+
+}
+.play span{
+  color: #2A192B;
+font-family: Laila;
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+text-align: center;
+}
+.get button{
+  width:194px;
+height:61px;
+padding: 4px 8px 4px 8px;
+gap: 8px;
+border-radius: 2px 0px 0px 0px;
+border: 1px 0px 0px 0px #2A192B;
+opacity: 0px;
+background: #F9F6FB;
+}
+.bile{
+  display: flex;
+  column-gap:16px;
+  margin: auto;
+  width: 80%;
+ align-items: center;
+  justify-content: center;
+  padding:2% 0%;
+}
+.foot{ 
+width: 100%;
+height: 80px;
+gap: 0px;
+border: 1px 0px 0px 0px #2A192B;
+opacity: 0px;
+background-color: #F9F6FB;
+
+}
+.over{
+  text-align: center;
+  width:1,240px;
+height:44px;
+padding:1% 5%;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+}
+.navs{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  padding:auto;
+  justify-content: space-between;
+}
+.navs img{
+  width:153px;
+height:44px;
+padding: 10px 0px 0px 0px;
+gap: 0px;
+opacity: 0px;
+flex: 1;
+}
+.icon{
+  color:#2A192B ;
+gap: 0px;
+opacity: 0px;
+
+}
+.icon span{
+  opacity: 0px;
+color: #2A192B; 
+font-family: Kodchasan;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+margin-left:8px ;
+}
+.navs .icon{
+  flex:1 ;
+}
+.comb{
+  display: flex;
+  column-gap:0 ;
+  align-items: center;
+  justify-content: center;
+ padding:0px ;
+}
+.nav .comb{
+  flex:1 ;
+}
+.comb span{
+  color:#2A192B;
+font-family: Kodchasan;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+}
+.privacy{
+  
+  gap: 0px;
+  opacity: 0px;
+  
+}
+.terms{
+gap: 0px;
+opacity: 0px;
+
+}
+.icon h3{
+  color: #2A192B;
+font-family: Kodchasan;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+
+}
+.wise{
+  color: #2A192B;
+font-family: Kodchasan;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left; 
+}
+.nav.wise{
+  flex:1 ;
+}
+.novels{
+  text-align: center;
+  margin:3px 40% 5px 35%;
+  
+  
+}
+.vels{
+  text-align: center;
+  color:#2A192B;
+font-family: Laila;
+font-size: 32px;
+font-weight: 600;
+line-height: 49.6px;
+
+}
+.noves{
+  text-align: center;
+}
+.thrill{
+animation-duration: 0ms;
+color: #2A192B;
+font-family: Kodchasan;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+border:none !important;
+
+
+
+
+}
+.stock{
+  color: #2A192B;
+font-family: Kodchasan;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+border:none ;
+
+
+}
+.options{
+  display: flex;
+  column-gap:8px ;
+  padding:1%;
+  justify-content: center;
+  align-items: center;
+border-radius:2px ;
+border: 1px solid #AC9BAF;
+opacity: 0px;
+width: 304px;
+}
+.both{
+  padding:2%;
+  text-align: center;
+}
+.shop{
+  display: flex;
+  column-gap:5% ;
+  padding:2% ;
+  width:90% ;
+}
+.my{
+  text-align: center;
+  flex:5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.my h1{
+ color:#2A192B;
+font-family: Laila;
+font-size: 32px;
+font-weight: 600;
+line-height: 49.6px;
+text-align: left;
+
+}
+.shopping{
+  width:100% ;
+}
+.arrow{
+  width:92px;
+height:44px;
+display: flex;
+
+}
+.arrow h3{
+font-family: Kodchasan;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+color: #2A192B;
+}
+.arrow i{
+ font-size:1em ;
+  color: #2A192B;
+}
+.shop.arrow{
+  flex:1 ;
+}
+.shop.my{
+  
+  margin:auto;
+}
+.detail{
+  padding:3%;
+}
+.detail th{
+ 
+font-family: Laila;
+font-size: 24px;
+font-weight: 600;
+line-height: 37.2px;
+text-align: left;
+
+}
+.detail thead{
+  width: 100%;
+height:37px;
+text-align: center;
+margin: auto;
+}
+.bq{
+  display: flex;
+  column-gap:;
+  
+  width:60%;
+}
+.tail{
+  flex:1;
+ 
+}
+.quan{
+  flex:1;
+}
+.move{
+  flex:1;
+}
+.rice{
+  flex:1 ;
+}
+
+.prb{
+  display: flex;
+  column-gap:20% ;
+}
+.prb .pr{
+  flex:1 ;
+}
+.prb .bq{
+  flex:1 ;
+}
+.round{
+  display: flex;
+  width:60% ;
+  justify-content: space-between;
+}
+.second{
+  margin-right:38% ;
+}
+.bm{
+  flex:1 ;
+ 
+}
+.second Button{
+  flex:1 ;
+  margin-left:13% ;
+}
+.sec button{
+  flex:1 ;
+}
+.owo{
+  flex:1 ;
+  width: 100px;
+
+gap: 0px;
+opacity: 0px;
+
+}
+.line{
+  width: 970px;
+height: 0px;
+
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+  border: 1px solid #BBB6BD
+}
+.price-right {
+  text-align: right;
+}
+
+.story{
+  width:100% ;
+  height:180px ;
+}
+.story h5{
+  color:#2A192B ;
+  font-family: Laila;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37.2px;
+  text-align: left;
+  
+}
+.p1{
+ color: #2A192B;
+font-family: Kodchasan;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+
+}
+.p2{
+ color: #2A192B;
+font-family: Laila;
+font-size: 16px;
+font-weight: 600;
+line-height: 24.8px;
+text-align: left;
+}
+.p3{
+ color: #2A192B;
+font-family: Kodchasan;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+}
